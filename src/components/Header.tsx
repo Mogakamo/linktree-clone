@@ -11,9 +11,13 @@ const Header = () => {
         className="h-[88px] w-[88px] rounded-full"
       />
       {/* Twitter username */}
-      <h1 id="twitter" className="font-bold text-[20px] my-5">
+      <a
+        href="https://twitter.com/m_ogakadev"
+        id="twitter"
+        className="font-bold text-[20px] my-5"
+      >
         m_ogakadev
-      </h1>
+      </a>
       {/* slack username */}
       {/* <h1 className="slack">mog.dev</h1> */}
     </div>
