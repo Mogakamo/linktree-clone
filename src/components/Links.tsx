@@ -19,7 +19,7 @@ const Links = () => {
         className="bg-gray-200 py-[28px] rounded-lg 
             h-[76px] mb-2"
         href="http://training.zuri.team"
-        id=""
+        id="btn__zuri"
       >
         Zuri Team
       </a>
