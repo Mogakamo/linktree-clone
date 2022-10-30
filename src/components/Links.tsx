@@ -10,53 +10,48 @@ const Links = () => {
         className="bg-gray-200 py-[28px] rounded-lg 
             h-[76px] mb-2"
         href="http://twitter.com/m_ogakadev"
-        id="books"
+        id="twitter"
+        title="t"
       >
-        <h1 className="font-semibold text-sm">Twitter Link</h1>
+        Twitter Link
       </a>
       <a
         className="bg-gray-200 py-[28px] rounded-lg 
             h-[76px] mb-2"
         href="http://training.zuri.team"
-        id="books"
+        id=""
       >
-        <h1 className="font-semibold text-sm">Zuri Team</h1>
+        Zuri Team
       </a>
       <a
         className="bg-gray-200  py-[28px] rounded-lg 
             h-[76px] mb-2"
         href="https://books.zuri.team/python-for-beginners?ref_id=mog.dev"
         id="book__python"
+        title="Want to get started with programming? Grab your self a copy and learn
+        how to program with Python."
       >
-        <h1 className="font-semibold text-sm">Python</h1>
-        <p className="text-xs">
-          Want to get started with programming? Grab your self a copy and learn
-          how to program with Python.
-        </p>
+        Python
       </a>
       <a
         className="bg-gray-200  py-[28px] rounded-lg 
             h-[76px] mb-2"
         href="https://background.zuri.team"
         id="pitch"
+        title="Doubting your programming skills? Worry no more because we have
+        programs that will help you get on track. Click the link to learn
+        more."
       >
-        <h1 className="font-semibold text-sm">Background Check for Coders</h1>
-        <p className="text-xs">
-          Doubting your programming skills? Worry no more because we have
-          programs that will help you get on track. Click the link to learn
-          more.
-        </p>
+        Background Check for Coders
       </a>
       <a
         className="bg-gray-200  py-[28px] rounded-lg 
             h-[76px] mb-2"
         href="https://books.zuri.team/design-rules"
         id="book__design"
+        title="Grab a copy to get a taste on how designing softwares feels like."
       >
-        <h1 className="font-semibold text-sm">Get Started with Design</h1>
-        <p className="text-xs">
-          Grab a copy to get a taste on how designing softwares feels like.
-        </p>
+        Get Started with Design
       </a>
     </div>
   );
