@@ -19,7 +19,7 @@ const Header = () => {
         m_ogakadev
       </a>
       {/* slack username */}
-      {/* <h1 className="slack">mog.dev</h1> */}
+      <h1 className="slack hidden">mog.dev</h1>
     </div>
   );
 };
