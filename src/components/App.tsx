@@ -5,7 +5,7 @@ import Links from "./Links";
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center p-10 w-screen">
+    <div className="flex flex-col items-center justify-center p-10">
       <Header />
       <Links />
       <Footer />
