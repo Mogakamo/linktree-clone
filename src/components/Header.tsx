@@ -3,7 +3,7 @@ import profile_img from "../assets/amos.jpg";
 
 const Header = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <img
         src={profile_img}
         alt="Profile picture"
@@ -11,7 +11,9 @@ const Header = () => {
         className="h-[88px] w-[88px] rounded-full"
       />
       {/* Twitter username */}
-      <h1 id="twitter">m_ogakadev</h1>
+      <h1 id="twitter" className="font-bold text-[20px] my-5">
+        m_ogakadev
+      </h1>
       {/* slack username */}
       {/* <h1 className="slack">mog.dev</h1> */}
     </div>
