@@ -9,14 +9,18 @@ const Links = () => {
       <a
         className="bg-gray-200 py-[28px] rounded-lg 
             h-[76px] mb-2"
-        href="http://books.zuri.team"
+        href="http://twitter.com/m_ogakadev"
         id="books"
       >
-        <h1 className="font-semibold text-sm">Zuri Books</h1>
-        <p className="text-xs">
-          Grab yourself a copy of the best reads with books covering a wide
-          range of coding areas and topics
-        </p>
+        <h1 className="font-semibold text-sm">Twitter Link</h1>
+      </a>
+      <a
+        className="bg-gray-200 py-[28px] rounded-lg 
+            h-[76px] mb-2"
+        href="http://training.zuri.team"
+        id="books"
+      >
+        <h1 className="font-semibold text-sm">Zuri Team</h1>
       </a>
       <a
         className="bg-gray-200  py-[28px] rounded-lg 
