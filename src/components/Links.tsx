@@ -11,7 +11,6 @@ const Links = () => {
             h-[76px] mb-2"
         href="http://twitter.com/m_ogakadev"
         id="twitter"
-        title="t"
       >
         Twitter Link
       </a>
@@ -26,13 +25,24 @@ const Links = () => {
       <a
         className="bg-gray-200  py-[28px] rounded-lg 
             h-[76px] mb-2"
+        href="http://books.zuri.team"
+        id="books"
+        title="Get a variety of books ranging from coding to design."
+      >
+        Zuri books
+      </a>
+      
+      <a
+        className="bg-gray-200  py-[28px] rounded-lg 
+            h-[76px] mb-2"
         href="https://books.zuri.team/python-for-beginners?ref_id=mog.dev"
         id="book__python"
         title="Want to get started with programming? Grab your self a copy and learn
         how to program with Python."
       >
-        Python
+        Python Books
       </a>
+
       <a
         className="bg-gray-200  py-[28px] rounded-lg 
             h-[76px] mb-2"
@@ -51,7 +61,7 @@ const Links = () => {
         id="book__design"
         title="Grab a copy to get a taste on how designing softwares feels like."
       >
-        Get Started with Design
+        Design Books
       </a>
     </div>
   );
