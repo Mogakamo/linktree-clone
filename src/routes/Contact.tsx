@@ -11,26 +11,28 @@ const Contact = () => {
       <div className="md:grid grid-cols-2 gap-10 mt-5 ">
         <div className="flex flex-col space-y-2">
           <label
-            htmlFor="f_name"
+            htmlFor="first_name"
             className="text-[14px] text-gray-700 font-medium"
           >
             First name
           </label>
           <input
             type="text"
+            id="first_name"
             placeholder="Enter your first name"
             className="border-2 px-5 py-2 rounded-md shadow-md outline-none"
           />
         </div>
-        <div className="flex flex-col space-y-2 mt-3">
+        <div className="flex flex-col space-y-2 mt-3 md:mt-0">
           <label
-            htmlFor="f_name"
+            htmlFor="last_name"
             className="text-[14px] text-gray-700 font-medium"
           >
             Last name
           </label>
           <input
             type="text"
+            id="last_name"
             placeholder="Enter your last name"
             className="border-2 px-5 py-2 rounded-md shadow-md  outline-none"
           />
@@ -45,6 +47,7 @@ const Contact = () => {
         </label>
         <input
           type="email"
+          id="email"
           placeholder="yourname@gmail.com"
           className="w-full border-2 px-5 py-2 rounded-md  outline-none shadow-md"
         />
@@ -57,22 +60,21 @@ const Contact = () => {
           Message
         </label>
         <textarea
+          id="message"
           placeholder="Send me a message and I'll reply you as soon as possible..."
           className="border-2 px-5 py-2 rounded-md shadow-md outline-none h-[132px]"
-        ></textarea>
+        />
       </div>
       <div className="space-x-1 flex items-center">
         <input
           type="checkbox"
-          id=""
-          placeholder=""
           className="h-[20px] w-[20px] rounded-lg"
         />
         <span className="text-[16px] text-gray-600">
           You agree to providing your data to Amos Nyaburi who may contact you.
         </span>
       </div>
-      <button className="w-full bg-blue-600 px-[12px] text-white rounded-md py-[20px]">
+      <button id="btn__submit" className="w-full font-semibold bg-blue-600 px-[12px] text-white rounded-md py-[20px]">
         Send message
       </button>
       <div className="border-t-2 ">
