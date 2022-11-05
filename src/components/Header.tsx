@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="flex flex-col items-center">
       <button className="ml-64" title="Share link">
-        <img src={share} alt="Share btn" className="ml-96 h-10" />
+        <img src={share} alt="Share btn" className=" h-10" />
       </button>
 
       <img

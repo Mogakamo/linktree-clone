@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Links = () => {
   return (
@@ -63,6 +64,15 @@ const Links = () => {
       >
         Design Books
       </a>
+      <Link
+        className="bg-gray-200  py-[28px] rounded-lg 
+            h-[76px] mb-2"
+        to="Contact"
+        id="contact"
+        title="For more information, contact me."
+      >
+        Contact Me
+      </Link>
     </div>
   );
 };
