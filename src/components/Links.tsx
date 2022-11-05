@@ -67,7 +67,7 @@ const Links = () => {
       <Link
         className="bg-gray-200  py-[28px] rounded-lg 
             h-[76px] mb-2"
-        to="Contact"
+        to="contact"
         id="contact"
         title="For more information, contact me."
       >
